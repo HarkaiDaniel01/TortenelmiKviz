@@ -98,5 +98,5 @@ function gombKattint(aktualisFelirat) {
         alert("Rossz válasz!!!")
     }
     osszes++
-    document.getElementById("pontHelye").innerHTML=`Pontok: ${helyes}/${osszes} ${Math.round(helyes/osszes * 100)} %`
+    document.getElementById("pontHelye").innerHTML=`Pontok: ${helyes}/${osszes}<br> ${Math.round(helyes/osszes * 100)} %`
 }

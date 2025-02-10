@@ -1,3 +1,23 @@
 body {
     background-color: bisque;
+    color: #990011;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bold;
+}
+
+button:hover {
+    background-color:  #FEE715;
+    color: #101820;
+}
+
+button {
+    background-color: #990011;
+    color: #FCF6F5;
+    border-radius: 5px;
+    margin-top: 5px;
+}
+
+#nagykep img{
+    border-radius: 10px;
+    border: 2px white solid;
 }
